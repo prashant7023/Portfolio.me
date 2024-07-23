@@ -293,3 +293,9 @@ footer{
         padding: 0;
     }
 }
+@media(max-width: 1620px){
+    .skills .skill-box{
+        width: 320px;
+    }
+}
+
