@@ -55,6 +55,10 @@ header nav ul li a{
     border-radius: 10%;
     height: 410px;
     margin-top: 100px;
+    transition: all 0.2s ease-in-out;
+}
+.photo img:hover{
+    transform: scale(1.1);
 }
 .contact-link{
     display: flex;
