@@ -115,6 +115,7 @@ header nav ul li a{
     font-size: 25px;
     color: #3C5B6F;
     padding-top: 20px;
+    pointer-events: none;
 }
 .skills .skill-box{
     background-color: hsl(240, 2%, 12%);
