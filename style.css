@@ -66,9 +66,9 @@ header nav ul li a{
     text-decoration-line: none;
     color: aliceblue;
     margin-top: 35px;
-}
-.contact-link :hover{
     transition: all .1s ease-in-out;
+}
+.contact-link img:hover{
     transform: scale(1.1);
 }
 .text1{
@@ -110,31 +110,32 @@ header nav ul li a{
     flex-wrap: wrap;
     gap: 60px;
 }
+
 .box-head{
     font-size: 25px;
     color: #3C5B6F;
     padding-top: 20px;
     pointer-events: none;
 }
-.skills .skill-box{
+.skill-box {
     background-color: hsl(240, 2%, 12%);
     border: 1px solid hsl(0, 0%, 22%);
     height: 400px;
     padding: 10px;
     width: 360px;
     border-radius: 20px;
-}
-.skill-box{
+    transition: all 0.2s ease-in-out;
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    /* flex: 5%; */
 }
-.boxes :hover{
-    transition: all .2s ease-in-out;
+
+.skill-box:hover {
     transform: scale(1.1);
 }
+
+
 .skill-box h4{
     font-size: 20px;
     margin-top: 20px;
