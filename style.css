@@ -267,8 +267,13 @@ footer{
 .contact-logo{
     height: 35px;
 }
+.contact-logos {
+    display: flex;
+    gap: 60px;
+}
 .svg-logo{
-    height: 30px;
+    height: 34px;
+    width: 34px;
 }
 .resume a{
     background-color: rgb(0, 159, 0);
@@ -318,6 +323,10 @@ footer{
     .end-part{
         padding: 0;
     }
+    .contact-logos {
+    display: flex;
+    gap: 20px;
+}
 }
 @media(max-width: 1620px){
     .skills .skill-box{
