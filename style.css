@@ -41,7 +41,7 @@ header nav ul li a{
  nav ul li a:hover{
     color: #000;
     border-radius: 40px;
-    background-color: #3C5B6F;
+    background-color: #487aab;
 }
 #home{
     height: 600px;
@@ -91,7 +91,7 @@ header nav ul li a{
 }
 .text1 h1{
     font-weight: normal;
-    color: #3C5B6F;
+    color: #487aab;
 }
 #skills{
     height: 800px;
@@ -117,7 +117,7 @@ header nav ul li a{
 
 .box-head{
     font-size: 25px;
-    color: #3C5B6F;
+    color: #487aab;
     padding-top: 20px;
     pointer-events: none;
 }
@@ -145,6 +145,9 @@ header nav ul li a{
     margin-top: 20px;
     font-weight: lighter;
     pointer-events: none;
+}
+.domains{
+    color: rgb(0, 159, 0);
 }
 .skill-box p{
     pointer-events: none;
@@ -227,7 +230,11 @@ header nav ul li a{
     cursor: pointer;
     font-size: 18px;
     width: 200px;
-    background-color: #3C5B6F;
+    background-color: #487aab;
+    transition: all 0.1s ease-out
+}
+.contact-btn:hover{
+    background-color: #5c9ad7;
 }
 .contact-message{
     height: 100px;
@@ -240,7 +247,7 @@ footer{
     padding-left: 40px;
 }
 .console-text{
-    color: #3C5B6F;
+    color: #487aab;
     margin: 20px;
     font-size: 20px;
 }
@@ -285,7 +292,7 @@ footer{
     #contact{
         margin-top: 460px;
     }
-    #contact{
+    #project{
         height: 650px;
     }
 }
