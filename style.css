@@ -146,9 +146,9 @@ header nav ul li a{
     font-weight: lighter;
     pointer-events: none;
 }
-.domains{
+/* .domains{
     color: rgb(0, 159, 0);
-}
+} */
 .skill-box p{
     pointer-events: none;
     gap: 10px;
